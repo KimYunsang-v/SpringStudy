@@ -26,10 +26,10 @@ public class MemberDAOTest {
 	public void testInsertMember() throws Exception{
 		
 		MemberVO vo = new MemberVO();
-		vo.setUserid("user01");
-		vo.setUserpw("user01");
-		vo.setUsername("USER01");
-		vo.setEmail("user01@aaa.com");
+		vo.setUserid("user02");
+		vo.setUserpw("user02");
+		vo.setUsername("USER02");
+		vo.setEmail("user02@aaa.com");
 		
 		dao.insertMember(vo);
 	}
